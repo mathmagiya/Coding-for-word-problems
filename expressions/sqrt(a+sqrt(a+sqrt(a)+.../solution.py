@@ -1,16 +1,14 @@
 import math
 
 times = int(input("Enter the number "))
-a1="math.sqrt(20+"
+root="math.sqrt(20+"
+bracket=")"
+expression=""
 
-plus="+"
-braket=")"
-string=""
-n=5
 for i in range(1,times+1):
-  string=string+a1
+  expression=expression+root
 
 
-string=string[:-1]+braket*times
+expression=expression[:-1]+bracket*times
 
-print(eval(string))
+print(eval(expression))
